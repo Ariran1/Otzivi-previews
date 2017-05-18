@@ -4,8 +4,9 @@
   "description": "Отзывы для сайта printbar",
   "main": "main.js",
   "scripts": {
-    "build": "webpack -p",
-    "watch": "webpack --watch"
+    "build": "webpack --config mywebpack.config.js",
+    "watch": "webpack --watch",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,9 @@
   },
   "homepage": "https://github.com/Ariran1/Otzivi-previews#readme",
   "devDependencies": {
+    "css-loader": "^0.28.1",
+    "style-loader": "^0.17.0",
     "webpack": "^2.5.1"
-  }
+  },
+  "dependencies": {}
 }

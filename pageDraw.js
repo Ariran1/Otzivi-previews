@@ -1,6 +1,6 @@
 'use strict';
 // version 0.0.0
-class pageDraw {
+export default class pageDraw {
 	constructor(options) {
 
 

@@ -622,6 +622,7 @@ button:disabled {
 	width:20px;
 	line-height: 20px;
 	border-radius: 3px;
+	cursor: pointer;
 }
 .productCard__comments-pages ul li.active{
 	border:1px solid #bdbdbd;
